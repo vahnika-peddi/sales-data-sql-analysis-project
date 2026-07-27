@@ -1,5 +1,5 @@
 CREATE TABLE sales (
-order_id INTEGER,
+order_id INTEGER PRIMARY KEY,
 product TEXT,
 category TEXT,
 customer TEXT,
@@ -7,11 +7,54 @@ amount INTEGER,
 order_date DATE
 );
 
-INSERT INTO sales VALUES (1,'Laptop','Electronics','Ravi',60000,'2024-01-05');
-INSERT INTO sales VALUES (2,'Phone','Electronics','Anu',30000,'2024-01-10');
-INSERT INTO sales VALUES (3,'Shoes','Fashion','Kiran',4000,'2024-01-12');
-INSERT INTO sales VALUES (4,'Watch','Fashion','Meena',2500,'2024-02-05');
-INSERT INTO sales VALUES (5,'Laptop','Electronics','Ajay',62000,'2024-02-18');
-INSERT INTO sales VALUES (6,'Phone','Electronics','Rahul',28000,'2024-02-20');
-INSERT INTO sales VALUES (7,'Bag','Fashion','Ravi',1500,'2024-03-02');
-INSERT INTO sales VALUES (8,'Laptop','Electronics','Anu',61000,'2024-03-10');
+INSERT INTO sales VALUES 
+(1,'Laptop','Electronics','Ravi',60000,'2024-01-05'),
+(2,'Phone','Electronics','Anu',30000,'2024-01-10'),
+(3,'Shoes','Fashion','Kiran',4000,'2024-01-12'),
+(4,'Watch','Fashion','Meena',2500,'2024-02-05'),
+(5,'Laptop','Electronics','Ajay',62000,'2024-02-18'),
+(6,'Phone','Electronics','Rahul',28000,'2024-02-20'),
+(7,'Bag','Fashion','Ravi',1500,'2024-03-02'),
+(8,'Laptop','Electronics','Anu',61000,'2024-03-10'),
+(9,'Keyboard', 'Accessories', 'Arjun', 1800, '2024-02-02'),
+(10, 'Mouse', 'Accessories', 'Neha', 1200, '2024-02-04'),
+(11, 'Laptop', 'Electronics', 'Ravi', 60000, '2024-02-08'),
+(12, 'Phone', 'Electronics', 'Priya', 27000, '2024-02-12'),
+(13, 'Shoes', 'Fashion', 'Rahul', 3500, '2024-02-15'),
+(14, 'Watch', 'Accessories', 'Anu', 6500, '2024-02-18'),
+(15, 'Tablet', 'Electronics', 'Kiran', 30000, '2024-02-20'),
+(16, 'Bag', 'Fashion', 'Sneha', 2200, '2024-02-24'),
+(17, 'Camera', 'Electronics', 'Ajay', 45000, '2024-03-02'),
+(18, 'Headphones', 'Accessories', 'Meena', 4000, '2024-03-05'),
+(19, 'Keyboard', 'Accessories', 'Arjun', 2000, '2024-03-08'),
+(20, 'Mouse', 'Accessories', 'Neha', 1500, '2024-03-10'),
+(21, 'Laptop', 'Electronics', 'Ravi', 58000, '2024-03-15'),
+(22, 'Phone', 'Electronics', 'Priya', 26000, '2024-03-18'),
+(23, 'Shoes', 'Fashion', 'Rahul', 3200, '2024-03-20'),
+(24, 'Watch', 'Accessories', 'Anu', 5500, '2024-03-25'),
+(25, 'Tablet', 'Electronics', 'Kiran', 29000, '2024-03-28'),
+(26, 'Bag', 'Fashion', 'Sneha', 2500, '2024-04-02'),
+(27, 'Camera', 'Electronics', 'Ajay', 47000, '2024-04-05'),
+(28, 'Headphones', 'Accessories', 'Meena', 3800, '2024-04-08'),
+(29, 'Keyboard', 'Accessories', 'Arjun', 2100, '2024-04-12'),
+(30, 'Mouse', 'Accessories', 'Neha', 1600, '2024-04-15'),
+(31, 'Laptop', 'Electronics', 'Ravi', 61000, '2024-04-18'),
+(32, 'Phone', 'Electronics', 'Priya', 28000, '2024-04-20'),
+(33, 'Shoes', 'Fashion', 'Rahul', 3400, '2024-04-22'),
+(34, 'Watch', 'Accessories', 'Anu', 7000, '2024-04-25'),
+(35, 'Tablet', 'Electronics', 'Kiran', 31000, '2024-04-28'),
+(36, 'Bag', 'Fashion', 'Sneha', 2600, '2024-05-02'),
+(37, 'Camera', 'Electronics', 'Ajay', 48000, '2024-05-05'),
+(38, 'Headphones', 'Accessories', 'Meena', 4200, '2024-05-08'),
+(39, 'Keyboard', 'Accessories', 'Arjun', 2200, '2024-05-10'),
+(40, 'Mouse', 'Accessories', 'Neha', 1700, '2024-05-12'),
+(41, 'Laptop', 'Electronics', 'Ravi', 62000, '2024-05-15'),
+(42, 'Phone', 'Electronics', 'Priya', 29000, '2024-05-18'),
+(43, 'Shoes', 'Fashion', 'Rahul', 3600, '2024-05-20'),
+(44, 'Watch', 'Accessories', 'Anu', 7200, '2024-05-23'),
+(45, 'Tablet', 'Electronics', 'Kiran', 32000, '2024-05-26'),
+(46, 'Bag', 'Fashion', 'Sneha', 2800, '2024-05-28'),
+(47, 'Camera', 'Electronics', 'Ajay', 50000, '2024-06-02'),
+(48, 'Headphones', 'Accessories', 'Meena', 4500, '2024-06-05'),
+(49, 'Keyboard', 'Accessories', 'Arjun', 2300, '2024-06-08'),
+(50, 'Mouse', 'Accessories', 'Neha', 1800, '2024-06-10');
