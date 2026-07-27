@@ -4,9 +4,7 @@
 
 ## Project Overview
 
-This project analyzes sales data using SQL queries to generate meaningful business insights.
-It demonstrates SQL concepts such as data retrieval, filtering, aggregation, grouping, sorting, and conditional logic.
-
+This project focuses on analyzing basic store sales data using structured sql queries.it covers core database practices like filtering record,performing aggregates,categorizing rows,and applying conditional filters.
 
 ## Dataset
 
@@ -71,19 +69,19 @@ The dataset contains 50 sales records with the following columns:
 
 ## Tools Used
 
-MySQL Workbench
+- MySQL Workbench
 
-SQL
+- SQL
 
-GitHub
+- GitHub
 
 ## Project Structure
 
 Sales-Data-SQL-Analysis/
 
--sales_data.sql
--analysis_queries.sql
--README.md
+- sales_data.sql
+- analysis_queries.sql
+- README.md
 
 
 ## Author
